@@ -10,7 +10,7 @@ In this tutorial, we'll focus on creating a custom hook named useFetch. This hoo
 Create a new file named `useFetch.js` in the directory where you keep your custom hooks or utility functions.
 
 ## b. Implement the Custom Hook
-Inside the `useFetch.js` file, you'll define your custom hook using the useState and useEffect hooks. Here's the breakdown of the implementation:
+Inside the `useFetch.js` file, you'll define your custom hook using the `useState` and `useEffect` hooks. Here's the breakdown of the implementation:
 ```js
 import { useState, useEffect } from 'react';
 
