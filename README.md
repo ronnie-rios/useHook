@@ -132,3 +132,7 @@ Custom hooks can be used for various purposes beyond data fetching. Some example
 
 # Conclusion
 Creating a custom hook like `useFetch` simplifies and centralizes the process of fetching data from an API while handling loading states and errors. By following this tutorial, you've gained a deeper understanding of custom hooks, their implementation, and their benefits. Custom hooks are a powerful tool for building efficient, organized, and reusable React applications.
+
+## More Resources:
+- [React Docs](https://react.dev/learn/reusing-logic-with-custom-hooks#custom-hooks-sharing-logic-between-components)
+- [W3 Schools](https://www.w3schools.com/react/react_customhooks.asp)
