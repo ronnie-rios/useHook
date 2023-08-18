@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getData } from "./services/apiService"; // Update the path as needed
+import { getData } from "../services/apiService"; // Update the path as needed
 
 function useFetchWithService(url) {
   const [data, setData] = useState(null);
