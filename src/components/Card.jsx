@@ -12,7 +12,7 @@ const Card = ({ data }) => {
       </h1>
       {isToggled ? <p className="my-2">{body}</p> : ""}
       <button onClick={(isToggled) => toggle(!isToggled)} className="p-2 bg-white text-black hover:scale-105 rounded-sm mt-4">
-        {isToggled ? "Hide Details" : "View Details"}
+        {isToggled ? "Hide Details" : "View Det`ails"}
       </button>
     </div>
   );
