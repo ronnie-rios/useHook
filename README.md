@@ -51,12 +51,6 @@ function useFetch(url) {
       try {
         // Fetch data from the provided URL
         const response = await fetch(url);
-
-        // Check if the response is OK (status code 200)
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-
         // Parse response data as JSON
         const responseData = await response.json();
 

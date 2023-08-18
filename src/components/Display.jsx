@@ -13,7 +13,7 @@ const Display = () => {
   }
   //make error component
   if (error) {
-    return <Error error={error}/>;
+    return <div>Error: {error.message}</div>;
   }
 
   return (
