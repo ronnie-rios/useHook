@@ -10,7 +10,7 @@ function useFetch(url) {
       try {
         const response = await fetch(url);
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error('Ran into some trouble');
         }
         const responseData = await response.json();
         setData(responseData);

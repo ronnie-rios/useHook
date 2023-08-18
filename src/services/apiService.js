@@ -7,6 +7,6 @@ export async function getData(url) {
     const data = await response.json();
     return data;
   } catch (error) {
-    throw error;
+    throw new Error("Failed to fetch posts.");
   }
 }

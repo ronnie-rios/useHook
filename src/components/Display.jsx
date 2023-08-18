@@ -1,7 +1,8 @@
 import useFetch from "../hooks/useFetch";
 import Card from "./Card";
+import Error from "./Error";
 
-const URL = "https://jsonplaceholder.typicode.com/posts";
+const URL = "https://jsonplaceholder.typicode.com/psosts";
 
 const Display = () => {
   const { data, isLoading, error } = useFetch(URL);
@@ -12,7 +13,7 @@ const Display = () => {
   }
   //make error component
   if (error) {
-    return <div>Error: {error.message}</div>;
+    return <Error error={error}/>;
   }
 
   return (
