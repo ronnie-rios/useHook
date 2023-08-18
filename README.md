@@ -1,3 +1,5 @@
+# Intro
+
 # Step 1: Understanding Custom Hooks
 Custom hooks are a way to encapsulate and share reusable logic between different components in React. They're particularly useful for managing complex behaviors, stateful logic, or interactions that are needed by multiple parts of your application. By creating custom hooks, you can keep your codebase clean, organized, and encourage code reusability.
 
@@ -6,7 +8,7 @@ A custom hook in React consists of several essential parts that work together to
 
 * Hook Function: This is the core of the custom hook, and it's where the logic resides. The hook function should be defined as a regular JavaScript function and typically starts with the word "use" (e.g., `useCustomHook`). This function can use any of the built-in React hooks (like `useState`, `useEffect`, etc.) to manage state and handle the desired behavior.
 
-* State Variables: Custom hooks can use state variables to manage data or control the behavior of the hook. You can use the useState hook to initialize and update these state variables.
+* State Variables: Custom hooks can use state variables to manage data or control the behavior of the hook. You can use the `useState` hook to initialize and update these state variables. 
 
 * Effect Logic: If your custom hook involves side effects (like data fetching, DOM manipulation, etc.), you'll likely use the `useEffect` hook to handle them. This is where you define the logic that should run after the component mounts or when certain dependencies change.
 
