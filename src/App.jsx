@@ -1,14 +1,13 @@
 
 import './App.css'
-import Grid from './components/Grid'
-import Navbar from './components/Navbar'
+import Display from './components/Display'
+ 
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Grid />
+      <Display/>
     </>
   )
 }
